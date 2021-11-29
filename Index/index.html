@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/inicioSesion.css" type="text/css" media="screen">
+    <title>StarWarsSearcher</title>
+    <link rel="shortcut icon" href="../App/imagenes/darth-vader_icon-icons.com_76959.png">
+</head>
+<body style="background-image: url(imagenes/ALongTimeFarFarAway.jpg)">
+
+  <main>
+      <div class="contenedor">
+          <h1 class="logo">StarWarsSearcher</h1>
+          <div class="form-group">
+            <input type="email" class="textbox" id="usuario" placeholder="Username " id="UserName" onblur="onLeaveUsuario()"> 
+            <span class="error" id="errorUsuario"></span>
+          </div>
+          <div class="form-group log-status">
+            <input type="password" class="textbox" id="contraseña" placeholder="Password" id="Passwod" onkeypress="keyPress()" onblur="onLeaveContraseña()" maxlength="16"> 
+            <span class="error" id="errorContraseña"></span>
+          </div>
+            <a class="link" href="#" style="color: grey;">Olvidaste tu contraseña?</a>
+          <a id="enterBoton"><button type="button" class="log-btn" onclick="enter()">Log in</button></a>
+          <span class="error" id="usuarioIncorrecto"></span>
+      </div>
+  </main>
+    <script src="../Scripts/inicioSesion.js"></script>
+
+</body>
+</html>

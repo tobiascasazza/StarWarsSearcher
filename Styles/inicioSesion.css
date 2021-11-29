@@ -1,0 +1,96 @@
+.cabecera{
+    background-color: black;
+    height: 75px;
+
+}
+.contenedor{
+    width:30%;
+    padding:40px 30px;
+    background-color:rgba(235, 235, 235, 0.747);
+    border-radius: 4px;
+    margin:auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:20%;
+}
+.logo{
+    color: #ffdc52;
+    display: flex;
+    position: relative;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 150%;
+    font-weight: 100%;
+    letter-spacing: 6px;
+    line-height: 10%;
+    perspective: 400px;
+    text-align: justify;
+    max-width: 40%;
+    text-justify: inter-word;
+}
+.login-form{
+    width:350px;
+    padding:40px 30px;
+    background:#eee;
+    border-radius: 4px;
+    margin:auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:50%;
+  }
+  .form-group{
+    position: relative;
+    margin-bottom:15px;
+  }
+  .textbox{
+    width:90%;
+    height:50px;
+    border:none;
+    padding:5px 7px 5px 15px;
+    background:#fff;
+    color:#666;
+    border:2px solid #ddd;
+    border-radius: 4px ;
+  }
+  .form-group .fa{
+    position: absolute;
+    right:15px;
+    top:17px;
+    color:#999;
+  }
+  .log-status.wrong-entry {
+   animation: 0.3s;
+  }
+  .log-btn{
+    background:#0AC986;
+    width:100%;
+    font-size:16px;
+    height:50px;
+    color:#fff;
+    text-decoration:none;
+    border:none;
+    border-radius: 4px;
+    
+  }
+  .log-btn:hover{
+      cursor: pointer;
+  }
+  
+  .link{
+    text-decoration:none;
+    color:#C6C6C6;
+    float:right;
+    font-size:12px;
+    margin-bottom:15px;
+  }
+  .error{
+    font-size:14px;
+    color:rgb(221, 5, 5);
+    float:left;
+  }
+
+  body{
+    background-image: url(imagenes/star-wars-logo.jpg) ;
+    background-position-x: 50%;
+  }

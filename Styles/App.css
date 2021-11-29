@@ -1,0 +1,106 @@
+.logo{
+    color: #e9bf19;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 400%;
+    font-weight: 100%;
+    letter-spacing: 6px;
+    text-align: center;
+    margin-top: 0%;
+
+}
+main{
+    text-align: center;
+}
+.contenedor{
+    width:30%;
+    padding:40px 30px;
+    background-color:rgba(235, 235, 235, 0.747);
+    border-radius: 4px;
+    margin:auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:20%;
+    min-width: 3cm;
+}
+.busqueda{
+    margin: 20px;
+    width: 90%;
+    height: 50px;
+    border-radius: 12px;
+    border-color: yellow;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.8);
+    position: relative;
+    margin-top: 20px;
+}
+
+.botonBuscar{
+  padding: .6rem 1rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: #d9750b;
+  color: #fff;
+  position: relative;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+  box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+  0 1px 3px rgba(0,0,0,.2);
+  background-image: linear-gradient(rgb(0, 60, 255, 0.5) 10%,#0026ff96 100%);
+}
+
+.botonBuscar:hover, .botonBuscar:focus{
+    background-color: #002fff;
+    background-image: linear-gradient(#0026ff 10%,rgb(0, 26, 255) 100%);
+    cursor: pointer;
+}
+.botonBuscar:active {
+    background-color: #2ec201;;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+    background-image: linear-gradient(#0026ff 10%,rgb(255, 0, 0) 100%);
+  }
+
+.botonLimpiar{
+    padding: .6rem 1rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #d9750b;
+    color: #fff;
+    position: relative;
+      margin-left: 20px;
+    font-size: 1.5rem;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    box-shadow: 0 1px 0 rgba(255,255,255,.5) inset,
+      0 1px 3px rgba(0,0,0,.2);
+    background-image: linear-gradient(rgb(29, 206, 6, 0.5) 10%,#2ec2015b 100%);
+}
+.botonLimpiar:hover, .botonLimpiar:focus{
+    background-color: #2ec201;
+    background-image: linear-gradient(#2ec201 10%,rgba(7, 204, 0, 0.959) 100%);
+    cursor: pointer;
+}
+
+.botonLimpiar:active {
+    background-color: #2ec201;;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.2) inset;
+    background-image: linear-gradient(#2ec201 10%,rgb(255, 0, 0) 100%);
+  }
+
+.card{
+    background-color:rgba(235, 235, 235, 0.747);
+    position: relative;
+    border-radius: 5px;
+    border-color: blue;
+    border: solid #978c8c;
+    margin-top: 5px;
+    
+}
+
+.card-title{
+  background-color: rgb(17, 146, 0);
+  position: relative;
+  margin-top: 0%;
+  height: 30px;
+  
+}
